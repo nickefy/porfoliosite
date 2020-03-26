@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nick's Portfolio</title>
+
+	<!-- Small Icon that appears in the brower's tab -->
+	<link rel="icon" href="img/icon.ico" type="image/x-icon">					
+
+	<!-- To ensure proper rendering and touch zooming in Mobile Phones-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+
+	<!-- For Font-Aswesome Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Latest compiled and minified Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+
+	<!-- Javascript Plugin for Smooth Scrolling -->
+	<script type="text/javascript" src="js/jquery.smoothscroll.js "></script>
+
+	<!-- plugins for animations -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript">new WOW().init()</script>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Satisfy|Questrial|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Charm|Neuton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400i|Quicksand:500" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+
+<body id="my-portfolio" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+	<!-- Header for Navbar and Banner Text -->
+	<header class="container-fluid bg-header" id="home">
+
+		<!-- For Adding Background Color -->
+		<div class="header-bg-gray">
+			
+			<!-- Navigation Bar Begins -->
+			<nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md" id="my-navbar">
+				
+				<!-- Navbar Brand Logo -->
+				<<!-- a href="#home" class="navbar-brand">
+					<img src="img/bw-logo-t3.png" style="height: 35px;">
+				</a> -->
+
+				<!-- Toggler button to replace navbar when browser is collapse into smaller resolution -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content"
+				aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- navbar links -->
+				<div class="collapse navbar-collapse" id="navbar-content">
+					<!-- ml-auto right aligns the links -->
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="#home" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#portfolio" class="nav-link">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a href="#about" class="nav-link">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="#publication" class="nav-link">Publication</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav> <!-- Navigation bar ends -->
+
+			 <!-- container for banner text -->
+			 <div class="container">
+			 	<div class="row">
+			 		<div class="col-md-12 wow bounceInUp" data-wow-delay="0.2s">
+			 			
+			 			<!-- Banner Text -->
+			 			<div class="banner-text">
+			 				<h2>Hi, my name is <span class="decorate">Nicholas Leong</span></h2>
+			 				<p>A Data Scientist who is passionate in tech</p>
+			 			</div>
+
+			 			<!-- scroll to about section -->
+			 			<!-- <div class="scroll-to-about text-center">
+			 				<a href="#about"><i class="fa fa-angle-down"></i></a>
+			 			</div> -->
+			 		</div>
+			 	</div>
+			 </div>
+		</div>
+	</header>
+
+	<!-- Portfolio section begins -->
+	 <section class="section-padding" id="portfolio">
+	 	<div class="container">
+	 		
+	 		<!-- Title Text -->
+	 		<div class="row">
+	 			<div class="col-sm-12">
+	 				<h2 class="title text-center projects">
+	 					<span class="decorate">Projects</span> I have worked on
+	 				</h2>
+	 			</div>
+	 		</div>
+	 		<!-- Imagegrid or thumbnails -->
+	 		<div class="container">
+	 			<div id="my-grid" class="grid-padding">
+	 				<div class="row">
+	 					<div class="col-sm-4 col-xs-12 container wow fadeInLeft" data-wow-delay="0.7s">
+ 							<div class="inner-container project-container ">
+ 							<!-- first row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-image-container">
+										<img src="img/customerchurn.jpg" class=" fit-image img-fluid">
+									</div>
+								</div>
+								<!-- second row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-title-container project-title-text">
+										<p class="text-left py-0 my-0">Churn Analysis and Prediction</p>
+									</div>
+									<p class="text-left date"> November 2019</p>
+								</div>
+								<!-- third row in the project container -->
+								<div class="row">
+									<div class="container project-column-line-container">
+									</div>
+								</div>
+								<!-- forth row in the project container -->
+								<div class="row">
+									<div class="container project-column-p-container">
+										<p class="">Performing Data Exploration, Visualization, Preprocessing and Machine Learning to analyze and predict potential churn customers</p>
+									</div>
+								</div>
+								<!-- fifth row in the project container -->
+								<div class="row">
+									<!-- <div class="col-sm-6 project-column-skills-container left-skill">
+										<ul>
+											<li>Pandas</li>
+											<li>Plotly</li>
+											<li>Sklearn</li>
+										</ul>
+									</div> -->
+									<div class="details">
+										<div class="content">
+											<a href="https://towardsdatascience.com/python-for-data-science-a-guide-to-classification-machine-learning-9ff51d237842" target="_blank">
+												<button type="button" class="btn btn-light">Medium</button>
+											</a>
+											<br>
+											<br>
+											<a href="https://github.com/nickefy/classification-machine-learning" target="_blank">
+												<button type="button" class="btn btn-light">Github</button>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+ 						</div>
+ 						
+ 						<div class="col-sm-4 col-xs-12 container wow fadeInLeft" data-wow-delay="0.3s">
+ 							<div class="inner-container project-container">
+ 							<!-- first row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-image-container">
+										<img src="img/airflow.png" class="fit-image img-fluid">
+									</div>
+								</div>
+								<!-- second row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-title-container project-title-text">
+										<p class="text-left py-0 my-0">Apache Airflow</p>
+									</div>
+									<p class="text-left date">February 2019</p>
+								</div>
+								<!-- third row in the project container -->
+								<div class="row">
+									<div class="container project-column-line-container">
+									</div>
+								</div>
+								<!-- forth row in the project container -->
+								<div class="row">
+									<div class="container project-column-p-container">
+										<p class=""> Design and build multiple ELT pipelines and automation projects on GCP Cloud Composer.</p>
+									</div>
+								</div>
+								<!-- fifth row in the project container -->
+								<div class="row">
+									<!-- <div class="col-sm-6 project-column-skills-container left-skill">
+										<ul>
+											<li>Python</li>
+											<li>Apache Airflow</li>
+											<li>SQL</li>
+										</ul>
+									</div> -->
+									<div class="details">
+										<div class="content">
+											<a href="https://towardsdatascience.com/data-engineering-basics-of-apache-airflow-build-your-first-pipeline-eefecb7f1bb9" target="_blank">
+												<button type="button" class="btn btn-light">Medium</button>
+											</a>
+											<br>
+											<br>
+											<a href="https://github.com/nickefy/Data-Engineering---Basics-of-Apache-Airflow---Build-Your-First-Pipeline" target="_blank">
+												<button type="button" class="btn btn-light">Github</button>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+ 						</div>
+ 						<div class="col-sm-4 col-xs-12 container wow fadeInLeft" data-wow-delay="0.1s">
+ 							<div class="inner-container project-container">
+ 							<!-- first row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-image-container">
+										<img src="img/visualization.jpg" class="fit-image img-fluid">
+									</div>
+								</div>
+								<!-- second row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-title-container project-title-text">
+										<p class="text-left py-0 my-0">Visualization and Exploration</p>
+									</div>
+									<p class="text-left date"> October 2019</p>
+								</div>
+								<!-- third row in the project container -->
+								<div class="row">
+									<div class="container project-column-line-container">
+									</div>
+								</div>
+								<!-- forth row in the project container -->
+								<div class="row">
+									<div class="container project-column-p-container">
+										<p class="">Initialize data exploration and visualization to further understand datasets.</p>
+									</div>
+								</div>
+								<!-- fifth row in the project container -->
+								<div class="row">
+									<!-- <div class="col-sm-6 project-column-skills-container left-skill">
+										<ul>
+											<li>Python</li>
+											<li>Pandas</li>
+											<li>Plotly</li>
+										</ul>
+									</div> -->
+									<div class="details">
+										<div class="content">
+											<a href="https://towardsdatascience.com/python-for-data-science-what-to-do-before-performing-machine-learning-a30f62465632" target="_blank">
+												<button type="button" class="btn btn-light">Medium</button>
+											</a>
+											<br>
+											<br>
+											<a href="https://github.com/nickefy/what-to-do-before-machine-learning" target="_blank">
+												<button type="button" class="btn btn-light">Github</button>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+ 						</div>
+	 				</div>
+	 				<!-- second row -->
+	 				<div class="row">
+ 						<div class="col-sm-4 col-xs-12 container wow fadeInLeft" data-wow-delay="0.5s">
+ 							<div class="inner-container project-container">
+ 							<!-- first row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-image-container">
+										<img src="img/google-actual-cloud-platform.png" class="fit-image img-fluid">
+									</div>
+								</div>
+								<!-- second row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-title-container project-title-text">
+										<p class="text-left py-0 my-0">Google Drive Pipeline</p>
+									</div>
+									<p class="text-left date"> April 2019</p>
+								</div>
+								<!-- third row in the project container -->
+								<div class="row">
+									<div class="container project-column-line-container">
+									</div>
+								</div>
+								<!-- forth row in the project container -->
+								<div class="row">
+									<div class="container project-column-p-container">
+										<p class=""> Design custom pipeline extracting data from Google Drive into Google BQ.</p>
+									</div>
+								</div>
+								<!-- fifth row in the project container -->
+								<div class="row">
+									<!-- <div class="col-sm-6 project-column-skills-container left-skill">
+										<ul>
+											<li>JavaScript</li>
+											<li>Google App Script</li>
+										</ul>
+									</div> -->
+								</div>
+								<div class="details">
+									<div class="content">
+										<a href="https://towardsdatascience.com/data-engineering-how-to-build-a-google-drive-data-pipeline-with-google-app-script-d056958e6de6" target="_blank">
+											<button type="button" class="btn btn-light">Medium</button>
+										</a>
+										<br>
+										<br>
+										<a href="https://github.com/nickefy/Data-Engineering-Google-Drive-Data-Pipeline" target="_blank">
+											<button type="button" class="btn btn-light">Github</button>
+										</a>
+									</div>
+								</div>
+							</div>
+ 						</div>
+
+ 						<div class="col-sm-4 col-xs-12 container wow fadeInLeft" data-wow-delay="0.5s">
+ 							<div class="inner-container project-container">
+ 							<!-- first row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-image-container">
+										<img src="img/beam.jpeg" class="fit-image img-fluid">
+									</div>
+								</div>
+								<!-- second row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-title-container project-title-text">
+										<p class="text-left py-0 my-0">Apache Beam</p>
+									</div>
+									<p class="text-left date"> October 2019</p>
+								</div>
+								<!-- third row in the project container -->
+								<div class="row">
+									<div class="container project-column-line-container">
+									</div>
+								</div>
+								<!-- forth row in the project container -->
+								<div class="row">
+									<div class="container project-column-p-container">
+										<p class="">Design streaming pipelines, extracting data  from Google Pubsub into Google BQ.</p>
+									</div>
+								</div>
+								<!-- fifth row in the project container -->
+								<div class="row">
+									<!-- <div class="col-sm-6 project-column-skills-container left-skill">
+										<ul>
+											<li>Apache Beam</li>
+											<li>Google Dataflow</li>
+											<li>Google Pubsub</li>
+										</ul>
+									</div> -->
+									<div class="details">
+										<div class="content">
+											<a href="https://github.com/nickefy/dataflow-project" target="_blank">
+												<button type="button" class="btn btn-light">Github</button>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+ 						</div>
+ 						<div class="col-sm-4 col-xs-12 container wow fadeInLeft" data-wow-delay="0.3s">
+ 							<div class="inner-container project-container">
+ 							<!-- first row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-image-container">
+										<img src="img/AI.jpg" class="fit-image img-fluid">
+									</div>
+								</div>
+								<!-- second row in the project container -->
+								<div class="row">
+									<div class="col-sm-12 project-column-title-container project-title-text">
+										<p class="text-left py-0 my-0">Job Description Prediction</p>
+									</div>
+									<p class="text-left date">June 2019</p>
+								</div>
+								<!-- third row in the project container -->
+								<div class="row">
+									<div class="container project-column-line-container">
+									</div>
+								</div>
+								<!-- forth row in the project container -->
+								<div class="row">
+									<div class="container project-column-p-container">
+										<p class=""> Machine Learning Project that generates job description based on features.</p>
+									</div>
+								</div>
+								<!-- fifth row in the project container -->
+								<div class="row">
+									<!-- <div class="col-sm-6 project-column-skills-container left-skill">
+										<ul>
+											<li>Sklearn</li>
+											<li>Pandas</li>
+										</ul>
+									</div> -->
+									</div>
+									<div class="details">
+										<<!-- div class="content">
+											<button type="button" class="btn btn-light">Github</button>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+ 					</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </section>
+	 <!-- portfolio setion ends -->
+
+	<!-- About Section Beings --> 
+	<section id="about" class="section-padding">
+	 	<div class="container">
+	 		<div class="row">
+	 			<div class="col-md-6 text-right">
+	 				<h2 class="title-text">
+	 					Meet <br><span class="decorate">Nicholas</span>
+	 				</h2>
+	 			</div>
+	 			<div class="col-md-6 text-left">
+	 				<div class="about-text">
+	 					<p> 
+						Hello, my name is Nicholas Leong. <br>
+						I am a data scientist, currently working in an online classifieds tech company. In my years of experience, I have fully designed batch and streaming pipelines, improved data warehousing solutions and performed machine learning projects for the organization. 
+						<br> <br>
+						During my free time, I like to work on my own projects to improve my skills. I also write about my work, projects and experiences to share them with the world. It's been a great journey so far. <br> <br>
+						My goal is to provide value to society. <br>
+						Data is my pathway towards that goal.
+						</p>
+	 					
+	 					
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 	
+	 </section>
+
+	 <!-- publication section begins -->
+	 <section id="publication" class="wow fadeInUp">
+	 	<div class="container-fluid">
+	 		<div class="row">
+	 			<div class="col-md-12">
+	 				<h2 class="text-center title text-dark my-3 py-3"><strong>Publications</strong></h2>
+
+	 				<!-- Carousell begins -->
+	 				<div class="carousel slide" id="my-carousel" data-ride="carousel">
+	 					<ol class="carousel-indicators">
+	 						<li data-target="#my-carousel" data-slide-to="0"></li>
+	 						<li data-target="#my-carousel" data-slide-to="1" class="active"></li>
+	 						<li data-target="#my-carousel" data-slide-to="2"></li>
+	 					</ol>
+
+	 					<div class="carousel-inner">
+	 						<!-- slide-1 -->
+	 						<div class="carousel-item text-center">
+	 							<div class="img-box border rounded-circle m-auto">
+	 								<a href="https://towardsdatascience.com/why-are-data-engineers-equally-as-important-as-data-scientists-545898929444" target="_blank">
+	 									<img src="img/dataengineering.jpg" class="d-block w-100 
+	 									">
+	 								</a>
+	 							</div>
+	 							<!-- py and my is setting padding and margin 1 rem on the y axis (top and botom) -->
+	 							<h5 class="py-1 my-1"><strong class="text-dark text-uppercase">Why are data engineers as important as data scientists</strong></h5>
+	 							<h6 class="text-dark m-1">by Nicholas Leong</h6>
+	 							<p class="pt-3 text-white">Comparing the Roles of Data Engineers and Data Scientists in Determining the Value of the Data in your Organisation.
+
+	 							<div>
+	 								<a href="https://towardsdatascience.com/why-are-data-engineers-equally-as-important-as-data-scientists-545898929444" target="_blank">
+	 									<button type="button" class="btn btn-light">Medium</button>
+	 								</a>
+	 							</div>
+	 						</div>
+
+	 						<!-- slide-2 -->
+	 						<div class="carousel-item text-center active">
+	 							<div class="img-box border rounded-circle m-auto">
+	 								<a href="https://towardsdatascience.com/python-for-data-science-advance-guide-to-data-visualization-with-plotly-8dbeaedb9724" target="_blank">
+	 									<img src="img/plotlylogo.png" class="d-block w-100 ">
+	 								</a>
+	 							</div>
+	 							<!-- py and my is setting padding and margin 1 rem on the y axis (top and botom) -->
+	 							<h5 class="py-1 my-1"><strong class="text-dark text-uppercase">Advance Guide to Data Visualization with Plotly </strong></h5>
+	 							<h6 class="text-dark m-1">by Nicholas Leong</h6>
+	 							<p class="pt-3 text-white">An Advance Guide on How to Add and Customize Dropdown Menus, Sliders and Buttons to Level Up Your Visualizations with Plotly.</p>
+
+	 							<div>
+	 								<a href="https://towardsdatascience.com/python-for-data-science-advance-guide-to-data-visualization-with-plotly-8dbeaedb9724" target="_blank">
+	 									<button type="button" class="btn btn-light">Medium</button>
+	 								</a>
+	 							</div>
+	 						</div>
+
+	 						<!-- slide-2 -->
+	 						<div class="carousel-item text-center">
+	 							<div class="img-box border rounded-circle m-auto">
+	 								<a href="https://towardsdatascience.com/data-engineering-how-to-set-dependencies-between-data-pipelines-in-apache-airflow-using-sensors-fc34cfa55fba" target="_blank">
+	 									<img src="img/airflowlogo3.png" class="d-block w-100">
+ 									</a>
+	 							</div>
+	 							<!-- py and my is setting padding and margin 1 rem on the y axis (top and botom) -->
+	 							<h5 class="py-1 my-1"><strong class="text-dark text-uppercase">How to Set Dependencies Between Data Pipelines in Apache Airflow</strong></h5>
+	 							<h6 class="text-dark m-1">by Nicholas Leong</h6>
+	 							<p class="pt-3 text-white">Use Sensors to Set Effective Dependencies between Data Pipelines to Build a Solid Foundation for the Data Team
+
+	 							<div>
+	 								<a href="https://towardsdatascience.com/data-engineering-how-to-set-dependencies-between-data-pipelines-in-apache-airflow-using-sensors-fc34cfa55fba" target="_blank">
+	 									<button type="button" class="btn btn-light">Medium</button>
+	 								</a>
+	 							</div>
+	 						</div>
+	 					</div>
+
+	 					<!-- carousel controls -->
+	 					<a href="#my-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+	 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	 						<span class="sr-only">Previous</span>
+	 					</a>
+
+	 					<a href="#my-carousel" class="carousel-control-next" role="button" data-slide="next">
+	 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	 						<span class="sr-only">Next</span>
+	 					</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </section>
+
+	<!-- contact section begins -->
+	<section class="section-padding" id="contact">
+		<div class="container">
+
+			<!-- Title Text -->
+			<div class="contact-sec text-center">
+				<h2>Get In <span class="decorate">Touch!</span></h2>
+				<p>If you're interested in my services, do reach me.</p>
+				<p>Email - nickmydata@gmail.com</p>
+				<p>LinkedIn - www.linkedin.com/in/nickefy</p>
+				<p>Github - https://github.com/nickefy</p>
+				<p>Medium - https://medium.com/@nickmydata</p>
+
+			</div>
+
+			<!-- Input -->
+			<!-- <div class="container">
+				<form class="contactForm" method="post" role="form">
+					<div class="form-group">
+						<input type="text" name="name" class="form-control" placeholder="Name" data-rule="minlen:4">
+					</div>
+					<div class="form-group">
+						<input type="email" name="email" class="form-control" placeholder="Email" data-rule="email">
+					</div>
+					<div class="form-group">
+						<input type="text" name="subject" class="form-control" placeholder="Subject" data-rule="minlen:4">
+					</div>
+					<div class="form-group">
+						<textarea type="text" name="message" class="form-control" placeholder="Drop me an enquiry and I will get back to you as soon as possible." data-rule="required" rows=5></textarea>
+					</div>
+
+					<div class="text-center">
+						<button class="btn btn-primary btn-lg" type="submit">Send Message</button>
+					</div>
+				</form> -->
+				
+			</div>
+
+
+			
+		</div>
+	</section>
+
+	 <script type="text/javascript">
+	 	 // smooth scroll effect
+	 	 $('html,body').smoothScroll(500); 
+	 </script>
+</body> 
+</html>
